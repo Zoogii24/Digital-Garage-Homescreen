@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Garage HomePage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section id="header">
+      <a href="#"><img src="/images/logo.png" class="logo" alt="" /></a>
+      <div>
+        <ul id="navbar">
+          <li>
+            <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-bell"></i></a>
+          </li>
+          <li><a class="active" href="index.html">Бидний тухай</a></li>
+          <li><a href="#">Үйлчилгээний нөхцөл</a></li>
+          <li><a href="#">Нууцлалын бодлого</a></li>
+          <li><a href="#">Түгээмэл асуултууд</a></li>
+          <li><a href="#">Санал хүсэлт</a></li>
+          <li><a href="#">Холбоо барих</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Changing images -->
+    <section id="background_images"></section>
+    <div id="dots-container">
+      <span class="dot" data-index="0"></span>
+      <span class="dot" data-index="1"></span>
+      <span class="dot" data-index="2"></span>
+      <span class="dot" data-index="3"></span>
+      <span class="dot" data-index="4"></span>
+      <span class="dot" data-index="5"></span>
+      <span class="dot" data-index="6"></span>
+    </div>
+
+    <!-- Selbeg search section -->
+    <section class="form-container">
+      <div class="container">
+        <div class="tab-menu">
+          <button class="tab active" id="ulsiinDugaarTab">Улсын дугаар</button>
+          <button class="tab" id="arlinDugaarTab">Арлын дугаар</button>
+          <button class="tab" id="modelSongohTab">Модель сонгох</button>
+        </div>
+        <div class="input-section">
+          <input type="text" placeholder="0000УБА" class="license-input" />
+        </div>
+        <p class="instruction-text">
+          Та өөрийн машины улсын дугаарыг оруулан сэлбэг хайна уу.
+        </p>
+        <hr class="divider" />
+        <button class="search-button">Сэлбэг хайх</button>
+      </div>
+    </section>
+
+    <!-- Highlight -->
+    <section id="highlights">
+      <div class="highlight-container">
+        <img
+          src="./images/highlight-1.jpg"
+          alt="Highlight 1"
+          class="highlight"
+        />
+        <img
+          src="./images/highlight-2.jpg"
+          alt="Highlight 2"
+          class="highlight"
+        />
+        <img
+          src="./images/highlight-3.jpg"
+          alt="Highlight 3"
+          class="highlight"
+        />
+        <img
+          src="./images/highlight-4.jpg"
+          alt="Highlight 4"
+          class="highlight"
+        />
+      </div>
+    </section>
+
+    <!-- Category Section -->
+    <section id="categories">
+      <h1 class="category-topic">АНГИЛАЛ</h1>
+
+      <div class="category-container">
+        <div class="category-box">
+          <img src="./images/category-1.jpg" alt="Category 1" />
+          <p>Бүх сэлбэг</p>
+        </div>
+        <div class="category-box">
+          <img src="./images/category-2.jpg" alt="Category 2" />
+          <p>Хөдөлгүүр</p>
+        </div>
+        <div class="category-box">
+          <img src="./images/category-3.jpg" alt="Category 3" />
+          <p>Амортизатор/Пүрш</p>
+        </div>
+        <div class="category-box">
+          <img src="./images/category-4.jpg" alt="Category 4" />
+          <p>Шүүлтүүр</p>
+        </div>
+        <div class="category-box">
+          <img src="./images/category-5.jpg" alt="Category 5" />
+          <p>Явах анги</p>
+        </div>
+        <div class="category-box">
+          <img src="./images/category-6.jpg" alt="Category 6" />
+          <p>Ремень дамжуулга</p>
+        </div>
+        <div class="category-box">
+          <img src="./images/category-7.jpg" alt="Category 7" />
+          <p>Хөргөлтийн систем</p>
+        </div>
+        <div class="category-box">
+          <img src="./images/category-8.jpg" alt="Category 8" />
+          <p>Үйлчилгээний материал</p>
+        </div>
+        <div class="category-box">
+          <img src="./images/category-9.jpg" alt="Category 9" />
+          <p>Эйр кондейшн</p>
+        </div>
+        <div class="category-box">
+          <img src="./images/category-10.jpg" alt="Category 10" />
+          <p>Хөтлөх тэмдэг</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Auto Service section -->
+
+    <h2 class="services-topic">АВТО ЗАСВАР, ҮЙЛЧИЛГЭЭ</h2>
+    <section id="services-container">
+      <div class="service-box">
+        <img
+          src="./images/service-1 .jpg"
+          alt="Service 1"
+          class="service-image"
+        />
+        <div class="service-name">Компьютер оношлогоо</div>
+      </div>
+
+      <div class="service-box">
+        <img
+          src="./images/service-2.jpg"
+          alt="Service 2"
+          class="service-image"
+        />
+        <div class="service-name">Явах эд ангийн оношлогоо</div>
+      </div>
+      <div class="service-box">
+        <img
+          src="./images/service-3.jpg"
+          alt="Service 3"
+          class="service-image"
+        />
+        <div class="service-name">Цахилгаан оношлогоо</div>
+      </div>
+      <div class="service-box">
+        <img
+          src="./images/service-4.jpg"
+          alt="Service 4"
+          class="service-image"
+        />
+        <div class="service-name">Хөдөлгүүрийн оношлогоо</div>
+      </div>
+      <div class="service-box">
+        <img
+          src="./images/service-5.jpg"
+          alt="Service 5"
+          class="service-image"
+        />
+        <div class="service-name">Хөдөлгүүрийн тос солих</div>
+      </div>
+      <div class="service-box">
+        <img
+          src="./images/service-6.jpg"
+          alt="Service 6"
+          class="service-image"
+        />
+        <div class="service-name">Авто хальс</div>
+      </div>
+      <div class="service-box">
+        <img
+          src="./images/service-7.jpg"
+          alt="Service 7"
+          class="service-image"
+        />
+        <div class="service-name">Кузов засвар</div>
+      </div>
+      <div class="service-box">
+        <img
+          src="./images/service-8.jpg"
+          alt="Service 8"
+          class="service-image"
+        />
+        <div class="service-name">Авто доторлогоо</div>
+      </div>
+      <div class="service-box">
+        <img
+          src="./images/service-9.jpg"
+          alt="Service 9"
+          class="service-image"
+        />
+        <div class="service-name">Авто смок</div>
+      </div>
+      <div class="service-box">
+        <img
+          src="./images/service-10.jpg"
+          alt="Service 10"
+          class="service-image"
+        />
+        <div class="service-name">Суудлын бүрээс</div>
+      </div>
+    </section>
+
+    <!-- Decoration section -->
+    <h2 class="services-topic">ГОЁЛ ЧИМЭГЛЭЛ</h2>
+    <section id="services-container">
+      <div class="service-box">
+        <img
+          src="./images/decoration-1.jpg"
+          alt="Service 1"
+          class="service-image"
+        />
+        <div class="service-name">Аялаын хайрцаг</div>
+      </div>
+
+      <div class="service-box">
+        <img
+          src="./images/decoration-2.jpg"
+          alt="Service 2"
+          class="service-image"
+        />
+        <div class="service-name">Обуд</div>
+      </div>
+      <div class="service-box">
+        <img
+          src="./images/decoration-3.jpg"
+          alt="Service 3"
+          class="service-image"
+        />
+        <div class="service-name">Дугуй</div>
+      </div>
+      <div class="service-box">
+        <img
+          src="./images/decoration-4.jpg"
+          alt="Service 4"
+          class="service-image"
+        />
+        <div class="service-name">Шалавч</div>
+      </div>
+      <div class="service-box">
+        <img
+          src="./images/decoration-5.jpg"
+          alt="Service 5"
+          class="service-image"
+        />
+        <div class="service-name">Хүүхдийн суудал</div>
+      </div>
+      <div class="service-box">
+        <img
+          src="./images/decoration-6.jpg"
+          alt="Service 6"
+          class="service-image"
+        />
+        <div class="service-name">Аяны хөргөгч</div>
+      </div>
+      <div class="service-box">
+        <img
+          src="./images/decoration-7.jpg"
+          alt="Service 7"
+          class="service-image"
+        />
+        <div class="service-name">Цахилгаан үүсгэвэр</div>
+      </div>
+      <div class="service-box">
+        <img
+          src="./images/decoration-8.jpg"
+          alt="Service 8"
+          class="service-image"
+        />
+        <div class="service-name">Багц</div>
+      </div>
+    </section>
+
+    <!-- Brand section (logos slide) -->
+
+    <h2 class="services-topic">Брэнд</h2>
+
+    <section class="logos">
+      <div class="logos-slide">
+        <img src="./images/logo-1.jpg" alt="" />
+        <img src="./images/logo-2.jpg" alt="" />
+        <img src="./images/logo-3.jpg" alt="" />
+        <img src="./images/logo-4.jpg" alt="" />
+        <img src="./images/logo-5.jpg" alt="" />
+        <img src="./images/logo-6.jpg" alt="" />
+        <img src="./images/logo-7.jpg" alt="" />
+        <img src="./images/logo-8.jpg" alt="" />
+        <img src="./images/logo-9.jpg" alt="" />
+        <img src="./images/logo-10.jpg" alt="" />
+        <img src="./images/logo-11.jpg" alt="" />
+        <img src="./images/logo-12.jpg" alt="" />
+      </div>
+      <div class="logos-slide">
+        <img src="./images/logo-1.jpg" alt="" />
+        <img src="./images/logo-2.jpg" alt="" />
+        <img src="./images/logo-3.jpg" alt="" />
+        <img src="./images/logo-4.jpg" alt="" />
+        <img src="./images/logo-5.jpg" alt="" />
+        <img src="./images/logo-6.jpg" alt="" />
+        <img src="./images/logo-7.jpg" alt="" />
+        <img src="./images/logo-8.jpg" alt="" />
+        <img src="./images/logo-9.jpg" alt="" />
+        <img src="./images/logo-10.jpg" alt="" />
+        <img src="./images/logo-11.jpg" alt="" />
+        <img src="./images/logo-12.jpg" alt="" />
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
